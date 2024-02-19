@@ -41,16 +41,16 @@ a{
 }
 
 header a {
-    color:white
+    color:white;
 }
 
 header a:hover{
-    color: blue;
+    color: red;
 }
 
 .button {
     border: none;
-    background-color: blue;
+    background-color: red;
     padding: 13px 25px;
 
 }
@@ -114,7 +114,7 @@ p{
 
 #section04 button {
     padding: 8px 12px;
-    background-color: blue;
+    background-color: red;
     color: white;
 }
 
@@ -127,4 +127,3 @@ p{
     display: flex;
     margin: 0 auto;
 }
-
