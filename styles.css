@@ -25,4 +25,7 @@
     margin: 0 auto;
     padding: 0 50px;
 }
+.navbar__logo{
+    background-color: #ff8177;
+    background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
 }
