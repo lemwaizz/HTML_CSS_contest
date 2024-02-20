@@ -126,3 +126,6 @@ p{
     color: white;
     text-align: center;
 }
+#section04 ::placeholder{
+    text-align: center;
+}
