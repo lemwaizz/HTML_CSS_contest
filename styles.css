@@ -324,3 +324,273 @@ margin: 0 0 40px 0;
 #section04{
     line-height: 50px;
 }
+/* Media query for screens with a maximum width of 768 pixels (typically tablets) */
+@media only screen and (max-width: 768px) {
+    .wrapper {
+        max-width: 90%; /* Adjust the wrapper width for smaller screens */
+    }
+
+    header nav ul {
+        gap: 20px; /* Adjust the gap between navigation items */
+    }
+
+    #section01 {
+        height: 400px; /* Adjust the height of section01 for smaller screens */
+    }
+
+    .slider {
+        width: 100%; /* Make the slider full-width for smaller screens */
+        height: 250px; /* Adjust the height of the slider */
+    }
+
+    .image-container {
+        width: 1000px; /* Adjust the width of the image container */
+        height: 250px; /* Adjust the height of the image container */
+    }
+
+    .buttons {
+        top: -10px; /* Adjust the position of the buttons */
+    }
+
+    .responsive-container-block {
+        margin-top: 20px; /* Adjust margin for responsive container block */
+    }
+
+    .inner-container {
+        margin-top: 30px; /* Adjust margin for inner container */
+        margin-bottom: 30px; /* Adjust margin for inner container */
+    }
+
+    .section-head-text {
+        font-size: 20px; /* Adjust font size for section heading */
+        line-height: 40px; /* Adjust line height for section heading */
+    }
+
+    .section-subhead-text {
+        font-size: 16px; /* Adjust font size for section subheading */
+        margin-bottom: 40px; /* Adjust margin for section subheading */
+    }
+
+    .name,
+    .position {
+        font-size: 20px; /* Adjust font size for team member name and position */
+        margin-bottom: 30px; /* Adjust margin for team member name and position */
+    }
+}
+
+/* Media query for screens with a maximum width of 500 pixels (typically smartphones) */
+@media only screen and (max-width: 500px) {
+    .header nav ul {
+        flex-direction: column; /* Stack navigation items vertically */
+        align-items: center; /* Center align navigation items */
+        gap: 10px; /* Adjust the gap between navigation items */
+    }
+
+    #section01,
+    .slider,
+    .image-container {
+        height: 200px; /* Adjust the height of sections and slider for smaller screens */
+    }
+
+    .buttons {
+        top: 0; /* Adjust the position of the buttons */
+    }
+
+    .responsive-container-block {
+        margin-top: 30px; /* Adjust margin for responsive container block */
+    }
+
+    .inner-container {
+        margin-top: 40px; /* Adjust margin for inner container */
+        margin-bottom: 40px; /* Adjust margin for inner container */
+    }
+
+    .section-head-text {
+        font-size: 18px; /* Adjust font size for section heading */
+        line-height: 35px; /* Adjust line height for section heading */
+    }
+
+    .section-subhead-text {
+        font-size: 14px; /* Adjust font size for section subheading */
+        margin-bottom: 30px; /* Adjust margin for section subheading */
+    }
+
+    .name,
+    .position {
+        font-size: 18px; /* Adjust font size for team member name and position */
+        margin-bottom: 20px; /* Adjust margin for team member name and position */
+    }
+}
+/* Media query for screens with a maximum width of 768 pixels (typically tablets) */
+@media only screen and (max-width: 768px) {
+    .footer-container {
+        flex-direction: column; /* Stack footer items vertically */
+        align-items: flex-start; /* Center align footer items */
+    }
+
+    #footer h3 {
+        font-size: 20px; /* Adjust font size for footer headings */
+        margin-bottom: 15px; /* Adjust margin for footer headings */
+    }
+
+    #section05 p {
+        text-align: center; /* Center align paragraph text in section 05 */
+    }
+}
+
+/* Media query for screens with a maximum width of 500 pixels (typically smartphones) */
+@media only screen and (max-width: 500px) {
+    .footer-container {
+        padding: 20px; /* Add padding to footer container */
+    }
+
+    #footer h3 {
+        font-size: 18px; /* Adjust font size for footer headings */
+        margin-bottom: 10px; /* Adjust margin for footer headings */
+    }
+
+    .social-media-links {
+        margin-top: 15px; /* Adjust margin for social media links */
+    }
+
+    #section05 p {
+        font-size: 14px; /* Adjust font size for paragraph text in section 05 */
+    }
+}
+/* Media query for screens with a maximum width of 768 pixels (typically tablets) */
+@media only screen and (max-width: 768px) {
+    /* Add styles specific to tablets here */
+}
+
+/* Media query for screens with a maximum width of 500 pixels (typically smartphones) */
+@media only screen and (max-width: 500px) {
+    /* Add styles specific to smartphones here */
+}
+
+/* Media query for screens with a maximum width of 768 pixels (typically tablets) */
+@media only screen and (max-width: 768px) {
+    #section04 .slider {
+        width: 100%; /* Make the slider full-width */
+        height: 250px; /* Adjust the height of the slider */
+    }
+
+    .image-container {
+        width: 100%; /* Make the image container full-width */
+        height: 250px; /* Adjust the height of the image container */
+    }
+}
+
+/* Media query for screens with a maximum width of 500 pixels (typically smartphones) */
+@media only screen and (max-width: 500px) {
+    #section04 .slider {
+        height: 200px; /* Adjust the height of the slider */
+    }
+
+    .image-container {
+        height: 200px; /* Adjust the height of the image container */
+    }
+}
+/* Media query for screens with a maximum width of 768 pixels (typically tablets) */
+@media only screen and (max-width: 768px) {
+    header nav ul {
+        font-size: 14px; /* Reduce font size for navigation items */
+        gap: 20px; /* Adjust the gap between navigation items */
+    }
+
+    .button {
+        padding: 10px 20px; /* Adjust button padding for better touch experience */
+    }
+}
+
+/* Media query for screens with a maximum width of 500 pixels (typically smartphones) */
+@media only screen and (max-width: 500px) {
+    header nav ul {
+        font-size: 12px; /* Further reduce font size for navigation items */
+    }
+}
+/* Media query for screens with a maximum width of 768 pixels (typically tablets) */
+@media only screen and (max-width: 768px) {
+    header h1 {
+        font-size: 24px; /* Reduce font size for the title on tablets */
+    }
+}
+
+/* Media query for screens with a maximum width of 500 pixels (typically smartphones) */
+@media only screen and (max-width: 500px) {
+    header h1 {
+        font-size: 20px; /* Further reduce font size for the title on smartphones */
+    }
+}
+/* Media query for screens with a maximum width of 768 pixels (typically tablets) */
+@media only screen and (max-width: 768px) {
+    #section01 h2 {
+        font-size: 24px; /* Adjust font size for smaller screens to fit in one line */
+    }
+}
+
+/* Media query for screens with a maximum width of 500 pixels (typically smartphones) */
+@media only screen and (max-width: 500px) {
+    #section01 h2 {
+        font-size: 20px; /* Further reduce font size for smaller screens to fit in one line */
+    }
+}
+.button {
+    border: none;
+    background-color: red;
+    padding: 13px 25px; /* Current padding size */
+}
+
+/* Media query for screens with a maximum width of 768 pixels (typically tablets) */
+@media only screen and (max-width: 768px) {
+    .button {
+        padding: 6.5px 12.5px; /* Reduce padding to half for tablets */
+    }
+}
+
+/* Media query for screens with a maximum width of 500 pixels (typically smartphones) */
+@media only screen and (max-width: 500px) {
+    .button {
+        padding: 6.5px 12.5px; /* Reduce padding to half for smartphones */
+    }
+}
+/* Media query for iPad Mini screens (landscape orientation) */
+@media only screen and (max-width: 768px) and (orientation: landscape) {
+    .image-container {
+        width: 90%; /* Adjust the width of the image container to fit the screen */
+        height: auto; /* Allow the height to adjust dynamically based on content */
+        margin: 0 auto; /* Center the image container horizontally */
+    }
+
+    .slide {
+        width: 100%; /* Ensure each slide takes up the full width of the image container */
+        height: auto; /* Allow the height to adjust dynamically based on content */
+    }
+}
+/* Media query for screens with a maximum width of 768 pixels (typically tablets) */
+@media only screen and (max-width: 768px) {
+    .buttons {
+        position: relative;
+        top: -20px;
+        }
+    .buttons a {
+        display: inline-block;
+        height: 15px;
+        width: 15px;
+        border-radius: 50px;
+        background-color: red;
+        }
+}
+
+/* Media query for screens with a maximum width of 500 pixels (typically smartphones) */
+@media only screen and (max-width: 500px) {
+    .buttons {
+        position: relative;
+        top: -20px;
+        }
+    .buttons a {
+        display: inline-block;
+        height: 15px;
+        width: 15px;
+        border-radius: 50px;
+        background-color: red;
+        }
