@@ -107,9 +107,6 @@ p{
     color: white;
 }
 
-.bottom_#section04#section04 {
-    margin-bottom: 20px;
-}
 
 #section04 button {
     padding: 8px 12px;
@@ -124,9 +121,7 @@ p{
     justify-content: space-between;
     color: white;
 } 
-div.bottom_bar {
-    display: flex;
-}
+
 #section05 p{
     color: white;
     text-align: center;
