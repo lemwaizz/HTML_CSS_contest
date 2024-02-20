@@ -107,7 +107,7 @@ p{
     color: white;
 }
 
-#section04{
+.bottom_#section04#section04 {
     margin-bottom: 20px;
 }
 
@@ -115,6 +115,8 @@ p{
     padding: 8px 12px;
     background-color: red;
     color: white;
+    margin-bottom: 10px;
+    justify-content: center;
 }
 
 .footer-container{
@@ -122,7 +124,10 @@ p{
     justify-content: space-between;
     color: white;
 } 
-.bottom_bar {
+div.bottom_bar {
     display: flex;
-    margin: 0 auto;
+}
+#section05 p{
+    color: white;
+    text-align: center;
 }
