@@ -37,3 +37,6 @@ You can include a profile picture (optional)
 **Contact us**
 
 Create a form wherein students can reserve their slots for the events they want to participate in.
+
+**ALUMEET**
+Welcome to alumeet, a platform where mentors can sign up for mentor-specific events as a way to maintain ties with our institution.
