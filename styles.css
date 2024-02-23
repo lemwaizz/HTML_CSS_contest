@@ -138,7 +138,7 @@ p{
 .slider {
     width: 500px;
     height: 300px;
-    background-color: yellow;
+    background-color: black;
     margin-left: auto;
     margin-right: auto;
     margin-top: 0px;
@@ -566,35 +566,32 @@ margin: 0 0 40px 0;
         height: auto; /* Allow the height to adjust dynamically based on content */
     }
 }
-/* Media query for screens with a maximum width of 768 pixels (typically tablets) */
-@media only screen and (max-width: 768px) {
-    .buttons {
-        position: relative;
-        top: -20px;
-        }
-    .buttons a {
-        display: inline-block;
-        height: 15px;
-        width: 15px;
-        border-radius: 50px;
-        background-color: red;
-        }
-}
+/* Add this CSS to your existing styles.css file */
 
-/* Media query for screens with a maximum width of 500 pixels (typically smartphones) */
-@media only screen and (max-width: 500px) {
-    .buttons {
-        position: relative;
-        top: -20px;
-        }
-    .buttons a {
-        display: inline-block;
-        height: 15px;
-        width: 15px;
-        border-radius: 50px;
-        background-color: red;
-        }
-
+/* Media query for screens smaller than 768px */
+@media only screen and (max-width: 767px) {
+    #section03 .button {
+      font-size: 14px; /* Decrease font size for smaller screens */
+      padding: 8px 16px; /* Adjust padding for smaller screens */
+    }
+  }
+  
+  /* Media query for screens between 768px and 1024px */
+  @media only screen and (min-width: 768px) and (max-width: 1024px) {
+    #section03 .button {
+      font-size: 16px; /* Maintain font size for medium-sized screens */
+      padding: 10px 20px; /* Maintain padding for medium-sized screens */
+    }
+  }
+  
+  /* Media query for screens larger than 1024px */
+  @media only screen and (min-width: 1025px) {
+    #section03 .button {
+      font-size: 18px; /* Increase font size for larger screens if necessary */
+      padding: 12px 24px; /* Increase padding for larger screens if necessary */
+    }
+  }
+  
 /* Media query for screens smaller than 768px */
 @media only screen and (max-width: 767px) {
     #section03 {
@@ -615,4 +612,78 @@ margin: 0 0 40px 0;
       padding: 20px; /* Adjust padding for larger screens */
     }
   }
+
+/* Media query for screens smaller than 768px */
+@media only screen and (max-width: 767px) {
+    .slide {
+      max-width: 100%; /* Set maximum width to 100% for smaller screens */
+      height: auto; /* Maintain aspect ratio */
+    }
+  }
+  
+  /* Media query for screens between 768px and 1024px */
+  @media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .slide {
+      max-width: 100%; /* Set maximum width to 100% for medium-sized screens */
+      height: auto; /* Maintain aspect ratio */
+    }
+  }
+  
+  /* Media query for screens larger than 1024px */
+  @media only screen and (min-width: 1025px) {
+    .slide {
+      max-width: 100%; /* Set maximum width to 100% for larger screens */
+      height: auto; /* Maintain aspect ratio */
+    }
+  }
+
+/* Media query for iPad Mini in portrait mode */
+@media only screen and (device-width: 768px) and (device-height: 1024px) and (orientation: portrait) {
+    .slider .slide {
+      max-width: 100%; /* Set maximum width to 100% for iPad Mini */
+      height: auto; /* Maintain aspect ratio */
+    }
+  }
+
+/* Media query for iPad Mini in portrait mode */
+@media only screen and (device-width: 768px) and (device-height: 1024px) and (orientation: portrait) {
+    .image-container {
+      margin: 0 auto; /* Center the image container */
+      width: 80%; /* Adjust the width as needed */
+    }
+  }
+
+/* Media query for screens smaller than 768px (including iPad Mini portrait) */
+@media only screen and (max-width: 767px) {
+    .slider .slide {
+      max-width: 100%; /* Set maximum width to 100% for smaller screens */
+      height: auto; /* Maintain aspect ratio */
+    }
+  }
+  
+  /* Media query for screens larger than 768px (excluding iPad Mini portrait) */
+  @media only screen and (min-width: 768px) {
+    .slider .slide {
+      max-width: 100%; /* Set maximum width to 100% for larger screens */
+      height: auto; /* Maintain aspect ratio */
+    }
+  }
+  /* Add this CSS to your existing styles.css file */
+
+/* Media query for iPad Mini in portrait mode */
+@media only screen and (device-width: 768px) and (device-height: 1024px) and (orientation: portrait) {
+    .slider {
+      margin: 0 auto; /* Center the slider */
+      width: 80%; /* Adjust the width of the slider container */
+    }
+  }
+/* Add this CSS to your existing styles.css file */
+
+/* Media query for iPad Mini in portrait mode */
+@media only screen and (device-width: 768px) and (device-height: 1024px) and (orientation: portrait) {
+    #section03 .buttons a {
+      text-align: center; /* Center align the buttons */
+    }
+  }
+    
   
