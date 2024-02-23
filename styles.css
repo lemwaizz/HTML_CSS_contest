@@ -594,3 +594,25 @@ margin: 0 0 40px 0;
         border-radius: 50px;
         background-color: red;
         }
+
+/* Media query for screens smaller than 768px */
+@media only screen and (max-width: 767px) {
+    #section03 {
+      padding: 10px; /* Adjust padding for smaller screens */
+    }
+  }
+  
+  /* Media query for screens between 768px and 1024px */
+  @media only screen and (min-width: 768px) and (max-width: 1024px) {
+    #section03 {
+      padding: 15px; /* Adjust padding for medium-sized screens */
+    }
+  }
+  
+  /* Media query for screens larger than 1024px */
+  @media only screen and (min-width: 1025px) {
+    #section03 {
+      padding: 20px; /* Adjust padding for larger screens */
+    }
+  }
+  
